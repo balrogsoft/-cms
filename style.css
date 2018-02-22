@@ -1,0 +1,194 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+html, body {
+	min-width: 320px;
+	height: 100%;
+	font-size: 12pt;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.wrapper {
+	min-height:100%;
+}
+.main-content {
+	overflow: auto;
+}
+.nav-title {
+	float: left;
+	display: inline;
+	font-size: 20pt;
+	color: #fff;
+	margin: 0 0 0 8%;
+	font-weight: normal;
+	padding: 14px 0 0 0;
+}
+.nav {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.nav ul {
+	width: 100%;
+	float: left;
+}
+.nav li {
+	width: 100%;
+	color: #fff;
+	float: left;
+	list-style: none;
+	padding: 15px 0px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.nav li:hover {
+	background: #567;
+}
+.nav li a {
+	display: inline;
+	text-decoration: none;
+}
+.nav-bar {
+	width: 100%;
+	display: inline;
+	clear: both;
+	float: left;
+	height: 1px;
+	overflow: hidden;
+	border: solid #234 1px;
+}
+.nav-toggle {
+    float:right;
+	margin: 10px 10px;
+    display: inline-block;
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	background: #567;
+    border: 2px solid #9ab; 
+	border-radius: 4px;
+}
+.nav-toggle:hover {
+    background: #678;
+    color: white;
+}
+.nav-toggle-line {
+	width:24px;
+	height:2px;
+	margin: 5px 2px;
+	background: #9ab;
+}
+.nav-toggle-overlay
+{
+    padding: 2px 2px;
+}
+.collapse {
+    display: inline;
+}
+.expand {
+    display: none;
+}
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.footer {
+	position: relative;
+	width: 100%;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+	position: relative;
+	float: left;
+	width: 100%;
+	min-height: 1px;
+}
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+@media (min-width: 992px) {
+.nav-title {
+	font-size: 24pt;
+}
+.nav ul {
+	width: auto;
+	float: right;
+	margin: 0 8% 0 0;
+}
+.nav li {
+	width: auto;
+	padding: 25px 15px;
+}
+.nav li a {
+	display: block;
+}
+.nav-bar {
+	display: none;
+}
+.nav-toggle {
+	display: none;
+}
+.collapse {
+    display: none;
+}
+.expand {
+    display: inline;
+}
+.container {
+	width: 970px;
+}
+.col-12 {
+	width: 100%;
+}
+.col-11 {
+	width: 91.66666667%;
+}
+.col-10 {
+	width: 83.33333333%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-8 {
+	width: 66.66666667%;
+}
+.col-7 {
+	width: 58.33333333%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-5 {
+	width: 41.66666667%;
+}
+.col-4 {
+	width: 33.33333333%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-2 {
+	width: 16.66666667%;
+}
+.col-1 {
+	width: 8.33333333%;
+}
+}
+@media (min-width: 1200px) {
+  .container {
+		width: 1170px;
+  }
+}
+#editText {
+	resize: none;
+	border: 2px dashed #dcc;
+}

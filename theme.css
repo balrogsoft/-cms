@@ -1,0 +1,48 @@
+.nav {
+	background: #456;
+}
+.wrapper {
+	background: #f0f0f0;
+}
+.main-content {
+	padding-bottom: 40px; /* value of footer height */
+}
+.footer {
+	margin-top: -40px;	/* negative value of footer height */
+	height: 40px;		/* value of footer height */
+	background: #456;
+	color: #fff;
+	padding-top: 10px;
+	padding-right: 32px;
+	text-align: center;
+}
+.title {
+	color: #fff;
+	padding-bottom: 8px;
+}
+.content {
+	height: auto;
+	padding: 20px;
+	margin: 20px 8px;
+	background: #fff;
+	color: #000;
+	font-size: 12pt;
+	text-align: justify;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.side {
+	background: #1ab;
+	color: #fff;
+}
+a:link, a:visited, a:hover, a:active {
+    color: #89a;
+    text-decoration: none;
+}
+.footer_login {
+	position:relative;
+	float:right;
+}
+
+
